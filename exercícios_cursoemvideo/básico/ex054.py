@@ -6,7 +6,7 @@ menoridade = 0
 for c in range(1, 8):
     ano_nascimento = int(input(f'Digite o ano de nascimento da {c}ª pessoa: '))
     idade = ano_atual - ano_nascimento
-    if idade >= 18:
+    if idade >= 21:
         maioridade += 1
     else:
         menoridade += 1
